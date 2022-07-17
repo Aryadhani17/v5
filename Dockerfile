@@ -15,4 +15,5 @@ RUN npm install && npm install qrcode-terminal && npm install pm2 -g
 COPY . .
 
 EXPOSE 5000
+
 CMD ["node", "index.js"]
